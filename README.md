@@ -1,4 +1,13 @@
-chrome
-======
+# chrome cookbook
 
-Cookbook that installs chrome and chromedriver
+# Requirements
+
+# Usage
+
+# Attributes
+
+# Recipes
+
+# Author
+
+Author:: Rally Software Development Corp (<thefellowship@rallydev.com>)
