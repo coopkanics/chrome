@@ -2,4 +2,4 @@ site :opscode
 
 metadata
 
-cookbook 'yum-rally', path: "../yum-rally"
+cookbook 'yum-rally', github: "RallySoftware-cookbooks/yum-rally"
