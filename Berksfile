@@ -2,4 +2,6 @@ site :opscode
 
 metadata
 
-cookbook 'yum-rally', github: "RallySoftware-cookbooks/yum-rally"
+cookbook 'ark', :github => "RallySoftware-cookbooks/ark"
+cookbook 'yum'
+cookbook 'apt'

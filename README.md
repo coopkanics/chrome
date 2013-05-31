@@ -1,13 +1,16 @@
-# chrome cookbook
+# Chrome cookbook
+Cookbook for installing chrome and chromedriver
 
-# Requirements
+# About
+Contains recipes to install chromedriver and chrome browser.
 
-# Usage
+# Dependencies
+This cookbook depends on the following cookbooks
 
-# Attributes
+* yum cookbook (https://github.com/opscode-cookbooks/yum) *
+* apt cookbook (https://github.com/opscode-cookbooks/apt) *
+* ark (http://community.opscode.com/cookbooks/ark). *
 
-# Recipes
-
-# Author
-
-Author:: Rally Software Development Corp (<thefellowship@rallydev.com>)
+# License
+Copyright (c) Rally Software Development Corp. 2013
+Distributed under the MIT License.

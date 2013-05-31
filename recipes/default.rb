@@ -2,12 +2,7 @@
 # Cookbook Name:: chrome
 # Recipe:: default
 #
-# Copyright (C) 2013 Rally Software Development Corp
-# 
-# All rights reserved - Do Not Redistribute
-#
-include_recipe 'yum-rally::rally'
-include_recipe 'yum-rally::chrome'
+# Copyright (c) Rally Software Development Corp. 2013 (see https://github.com/RallySoftware-cookbooks/chrome)
 
-package 'google-chrome-stable'
-package 'chromedriver'
+include_recipe "chrome::chromedriver"
+include_recipe "chrome::chrome"

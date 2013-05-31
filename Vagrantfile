@@ -68,19 +68,14 @@ Vagrant.configure("2") do |config|
   # An array of symbols representing groups of cookbook described in the Vagrantfile
   # to skip installing and copying to Vagrant's shelf.
   # config.berkshelf.except = []
-
   config.vm.provision :chef_solo do |chef|
+    chef.log_level = :debug
     chef.json = {
-      :mysql => {
-        :server_root_password => 'rootpass',
-        :server_debian_password => 'debpass',
-        :server_repl_password => 'replpass'
-      }
+      :ark => {:prefix_bin => '/usr/bin'}
     }
 
     chef.run_list = [
-        "recipe[minitest-handler::default]",
-        "recipe[chrome::default]"
+      'recipe[chrome::chromedriver]'
     ]
   end
 end

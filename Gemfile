@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 gem "rake", "~> 10.0.4"
-gem "strainer", "~>2.0.0"
+gem "strainer", "~>2.1.0"
 gem "foodcritic", "~> 2.1.0"
 gem "chef", "~> 11.4.0"
 gem "berkshelf", "~> 1.4.3"
-gem "chefspec", "~> 1.0.0"
+gem "chefspec", "~> 1.2.0"
 gem "jackchop", :git => "https://github.com/RallySoftware-cookbooks/jackchop"
 
 # Workaround for json dependency for chef and berkshelf.  Chef

@@ -4,6 +4,15 @@ maintainer_email "thefellowship@rallydev.com"
 license          "All rights reserved"
 description      "Installs/Configures chrome"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.0"
+version          "1.0.0"
 
-depends "yum-rally"
+recipe 'chrome::chrome', "Installs the chrome browser"
+recipe 'chrome::chromedriver', "Installs the chromedriver"
+recipe 'chrome::default', "Installs both the chrome browser and chromedriver"
+
+supports 'ubuntu'
+supports 'centos'
+
+depends "ark"
+depends "yum"
+depends "apt"
