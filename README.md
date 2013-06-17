@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RallySoftware-cookbooks/chrome.png?branch=master)](https://travis-ci.org/RallySoftware-cookbooks/chrome)
+
 # Chrome cookbook
 Cookbook for installing chrome and chromedriver
 
