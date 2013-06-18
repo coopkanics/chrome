@@ -6,7 +6,7 @@ gem 'foodcritic', '~> 2.1.0'
 gem 'chef', '~> 11.4.0'
 gem 'berkshelf', '~> 1.4.3'
 gem 'chefspec', '~> 1.2.0'
-gem 'jackchop', :git => 'https://github.com/RallySoftware-cookbooks/jackchop'
+gem 'cookbook-development', :git => 'https://github.com/RallySoftware-cookbooks/cookbook-development'
 
 # Workaround for json dependency for chef and berkshelf.  Chef
 # wants <= 1.7.7 and berkshelf >= 1.5 but bundler tries to grab 1.8.0

@@ -1,5 +1,5 @@
 require 'chefspec'
-require 'jackchop/ext/chefspec'
+require 'cookbook/development/ext/chefspec'
 
 module ChefSpec
   module Matchers
