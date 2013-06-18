@@ -12,6 +12,7 @@ ark 'chromedriver' do
   owner node['chromedriver']['owner']
   group node['chromedriver']['group']
   path node['chromedriver']['path']
+  mode node['chromedriver']['mode']
   file 'chromedriver'
   action :cherry_pick
 end
