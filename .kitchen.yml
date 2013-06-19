@@ -10,6 +10,6 @@ platforms:
       cpus: 1
       memory: 256
 suites:
-- name: chrome
+- name: default
   run_list:
     - recipe[chrome]

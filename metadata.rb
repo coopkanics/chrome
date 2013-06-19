@@ -6,13 +6,9 @@ description      'Installs/Configures chrome'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '1.0.0'
 
-recipe 'chrome::chrome', 'Installs the chrome browser'
-recipe 'chrome::chromedriver', 'Installs the chromedriver'
-recipe 'chrome::default', 'Installs both the chrome browser and chromedriver'
+recipe 'chrome::default', 'Installs the chrome browser'
 
 supports 'ubuntu'
-supports 'centos'
 
-depends 'ark'
 depends 'yum'
 depends 'apt'
