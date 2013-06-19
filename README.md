@@ -18,9 +18,7 @@ Other
 
 In order to use this cookbook on RHEL 5 or 6, you'll need to provide your own repo for the google-chrome-stable package.
 
-For RHEL systems, the yum cookbook is required.
-
-For Debian systems, the apt cookbook is required.
+The yum and apt cookbooks are required.
 
 Attributes
 ==========
