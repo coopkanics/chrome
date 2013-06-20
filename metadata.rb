@@ -1,6 +1,6 @@
 name             'chrome'
 maintainer       'Rally Software Development Corp'
-maintainer_email 'thefellowship@rallydev.com'
+maintainer_email 'rallysoftware-cookbooks@rallydev.com'
 license          'MIT'
 description      'Installs/Configures chrome'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
