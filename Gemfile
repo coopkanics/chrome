@@ -13,6 +13,9 @@ gem 'cookbook-development', :git => 'https://github.com/RallySoftware-cookbooks/
 # which violates chef's requirement.  Seems like a bundler bug.
 gem 'json', '1.7.7'
 
-gem 'test-kitchen', :git => 'https://github.com/RallySoftware-cookbooks/test-kitchen', :branch => 'KITCHEN-75'
-gem 'kitchen-vagrant', :group => :integration
+group :integration do
+  gem 'test-kitchen', :git => 'https://github.com/RallySoftware-cookbooks/test-kitchen', :branch => 'KITCHEN-75'
+  gem 'kitchen-vagrant'
+end
+
 
