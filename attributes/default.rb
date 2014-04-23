@@ -1,1 +1,1 @@
-default['chrome']['version'] = 'stable'
+default['chrome']['version'] = 'developer'
