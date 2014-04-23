@@ -1,1 +1,2 @@
-default['chrome']['version'] = 'dev'
+
+default['google-chrome']['track'] = 'stable'
